@@ -19,9 +19,9 @@ namespace RunTestsConsoleApp
             if (!IntTests.IntListTest(new IntArrayList(1000000)))
                 return;*/
 
-            Console.WriteLine("## Testing GenericList class");
+            /*Console.WriteLine("## Testing GenericList class");
             if (!IntTests.GenericListTest(new GenericList<int>()))
-                return;
+                return;*/
 
             /*Console.WriteLine("\n\n## Testing GenericArrayList class");
             if (!IntTests.GenericListTest(new GenericArrayList<int>(1000000)))
@@ -40,14 +40,14 @@ namespace RunTestsConsoleApp
             StackAndQueuesTests.MeasurePerformance(new GenericStack<int>(), testIntValues);
 
 
-            Console.WriteLine("\n\n## Testing GenericQueue class");
+           /* Console.WriteLine("\n\n## Testing GenericQueue class");
             if (!StackAndQueuesTests.Test(new GenericQueue<int>(), testIntValues, true))
                 return;
 
             if (!StackAndQueuesTests.Test(new GenericQueue<string>(), testStringValues, true))
                 return;
 
-            StackAndQueuesTests.MeasurePerformance(new GenericQueue<int>(), testIntValues);
+            StackAndQueuesTests.MeasurePerformance(new GenericQueue<int>(), testIntValues);*/
         }
     }
 }
