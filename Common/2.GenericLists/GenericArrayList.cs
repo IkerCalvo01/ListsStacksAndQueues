@@ -1,7 +1,7 @@
 using System;
 namespace Common
 {
-    public class GenericArrayList<T> : IGenericList<T> where T : new()
+    public class GenericArrayList<T> : IGenericList<T> //where T : new()
     {
         T[] Values;
         int NumElements = 0;
