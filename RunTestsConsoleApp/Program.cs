@@ -11,13 +11,13 @@ namespace RunTestsConsoleApp
         {
             string teamId = "borjafdezgauna";
 
-            /*Console.WriteLine("## Testing IntList class");
+            Console.WriteLine("## Testing IntList class");
             if (!IntTests.IntListTest(new IntList()))
                 return;
 
             Console.WriteLine("\n\n## Testing ArrayList class");
             if (!IntTests.IntListTest(new IntArrayList(1000000)))
-                return;*/
+                return;
 
             Console.WriteLine("## Testing GenericList class");
             if (!IntTests.GenericListTest(new GenericList<int>()))
